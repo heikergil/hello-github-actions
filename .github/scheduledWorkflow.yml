@@ -1,5 +1,8 @@
-name: A workflow for my Hello World file
-on: push
+name: scheduled workflow test
+
+on:
+  schedule:
+    - cron:  '*/15 * * * *'
 jobs:
   build:
     name: Hello world action
@@ -9,3 +12,5 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "Heiker"
+
+  
