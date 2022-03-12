@@ -2,7 +2,7 @@ name: scheduled workflow test
 
 on:
   schedule:
-    - cron:  '*/15 * * * *'
+    - cron:  '*/5 * * * *'
 jobs:
   build:
     name: Hello world action
