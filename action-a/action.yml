@@ -13,5 +13,5 @@ runs:
   image: "Dockerfile"
 
 branding:
-  icon: "yellow"
-  color: "award"
+  icon: "award"
+  color: "yellow"
